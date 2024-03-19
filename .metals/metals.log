@@ -1,0 +1,798 @@
+2024.03.19 15:03:10 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject' for client Visual Studio Code 1.76.2.
+2024.03.19 15:03:11 INFO  time: initialize in 0.27s
+15:03:14.194 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+15:03:14.198 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+15:03:14.198 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+15:03:14.204 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+15:03:14.237 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 ...
+15:03:14.237 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+15:03:14.237 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+15:03:14.237 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 ...
+15:03:14.238 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/P/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+15:03:14.244 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+15:03:14.245 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+15:03:14.247 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+15:03:14.253 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+15:03:14.253 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+15:03:14.253 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+15:03:14.267 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:03:14.268 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+15:03:14.270 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+15:03:14.271 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+15:03:14.272 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+15:03:15.037 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\metals (H2 2.2)
+15:03:15.038 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+15:03:15.038 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+15:03:15.041 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+15:03:15.043 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+15:03:15.167 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+15:03:15.169 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+15:03:15.170 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:03:15.198 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+15:03:15.206 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:03:15.298 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+15:03:15.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:03:15.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+15:03:15.301 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+15:03:15.301 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+15:03:15.304 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+15:03:15.304 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:03:15.304 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+15:03:15.305 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+15:03:15.305 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+15:03:15.312 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+15:03:15.322 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.122s)
+15:03:15.326 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+15:03:15.392 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+15:03:15.397 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+15:03:15.412 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+15:03:15.413 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+15:03:15.414 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+15:03:15.424 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.425 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+15:03:15.511 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.511 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+15:03:15.533 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+15:03:15.534 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+15:03:15.540 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+15:03:15.543 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+15:03:15.545 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+15:03:15.547 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+15:03:15.547 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+15:03:15.551 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+15:03:15.553 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+15:03:15.620 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+15:03:15.623 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.623 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+15:03:15.626 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.626 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+15:03:15.627 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.628 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+15:03:15.629 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.629 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+15:03:15.632 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.632 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+15:03:15.638 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+15:03:15.648 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+15:03:15.653 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+15:03:15.654 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+15:03:15.665 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+15:03:15.665 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+15:03:15.674 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.675 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+15:03:15.689 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+15:03:15.707 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+15:03:15.711 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+15:03:15.712 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+15:03:15.714 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+15:03:15.714 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+15:03:15.719 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+15:03:15.719 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+15:03:15.744 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.745 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+15:03:15.755 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.755 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+15:03:15.756 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.757 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+15:03:15.760 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+15:03:15.764 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+15:03:15.770 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+15:03:15.770 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+15:03:15.772 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+15:03:15.772 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+15:03:15.775 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:03:15.775 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+15:03:15.792 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+15:03:15.813 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.149s)
+15:03:15.991 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 100M
+2024.03.19 15:03:17 WARN  no build tool detected in workspace 'C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.03.19 15:03:17 WARN  Build server is not auto-connectable.
+2024.03.19 15:03:21 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:03:21 INFO  time: code lens generation in 4.05s
+2024.03.19 15:04:20 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/User.java. Output:
+
+2024.03.19 15:05:01 INFO  no build target found for C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\src\finalProject\User.java. Using presentation compiler with project's scala-library version: 3.3.1
+Mar 19, 2024 3:05:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Mar 19, 2024 3:05:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2024.03.19 15:05:04 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/UserAuthentication.java. Output:
+
+Mar 19, 2024 3:05:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2024.03.19 15:05:05 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+2024.03.19 15:05:05 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+Mar 19, 2024 3:05:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Mar 19, 2024 3:05:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2024.03.19 15:05:17 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ShoppingCart.java. Output:
+
+Mar 19, 2024 3:05:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-05-22-310.md
+Mar 19, 2024 3:05:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-05-24-685.md
+Mar 19, 2024 3:05:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-05-26-263.md
+Mar 19, 2024 3:05:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-05-35-683.md
+2024.03.19 15:05:37 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ShoppingCartFactory.java. Output:
+
+2024.03.19 15:05:40 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ShoppingCart.java. Output:
+
+Mar 19, 2024 3:05:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-05-41-129.md
+2024.03.19 15:05:43 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ShoppingCartFactory.java. Output:
+
+Mar 19, 2024 3:05:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-05-44-614.md
+2024.03.19 15:05:56 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+Mar 19, 2024 3:05:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-05-57-854.md
+2024.03.19 15:06:01 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Order.java. Output:
+
+Mar 19, 2024 3:06:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-06-01-681.md
+Mar 19, 2024 3:06:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-06-20-232.md
+Mar 19, 2024 3:06:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-06-20-507.md
+Mar 19, 2024 3:06:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-06-21-470.md
+2024.03.19 15:06:27 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/OrderProcessing.java. Output:
+
+Mar 19, 2024 3:06:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-06-58-851.md
+Mar 19, 2024 3:06:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-06-59-275.md
+Mar 19, 2024 3:07:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-07-00-499.md
+Mar 19, 2024 3:07:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-07-00-879.md
+Mar 19, 2024 3:07:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-07-59-558.md
+Mar 19, 2024 3:08:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-08-01-423.md
+2024.03.19 15:08:16 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/PaymentGateway.java. Output:
+
+Mar 19, 2024 3:08:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-08-21-504.md
+2024.03.19 15:08:24 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/PaymentProcessor.java. Output:
+
+2024.03.19 15:08:30 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/MockPaymentGateway.java. Output:
+
+Mar 19, 2024 3:08:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-08-35-697.md
+Mar 19, 2024 3:08:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-08-39-666.md
+Mar 19, 2024 3:08:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-08-58-575.md
+2024.03.19 15:09:15 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/PaymentProcessor.java. Output:
+
+Mar 19, 2024 3:09:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-09-34-645.md
+Mar 19, 2024 3:09:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-09-36-356.md
+Mar 19, 2024 3:09:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-09-37-168.md
+Mar 19, 2024 3:09:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-09-53-302.md
+2024.03.19 15:09:53 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:09:59 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:10:05 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:10:06 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:10:06 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+Mar 19, 2024 3:10:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-08-830.md
+Mar 19, 2024 3:10:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-10-929.md
+2024.03.19 15:10:12 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:10:13 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:10:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-13-269.md
+2024.03.19 15:10:15 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:10:16 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:10:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-18-878.md
+2024.03.19 15:10:20 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:10:22 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:10:23 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:10:24 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:10:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-23-991.md
+Mar 19, 2024 3:10:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-28-546.md
+2024.03.19 15:10:29 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:10:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-33-953.md
+Mar 19, 2024 3:10:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-35-607.md
+Mar 19, 2024 3:10:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-36-814.md
+2024.03.19 15:10:46 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:10:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-49-202.md
+Mar 19, 2024 3:10:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-49-879.md
+Mar 19, 2024 3:10:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-10-50-990.md
+Mar 19, 2024 3:11:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-02-696.md
+2024.03.19 15:11:04 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:11:05 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:11:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-06-431.md
+Mar 19, 2024 3:11:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-08-196.md
+Mar 19, 2024 3:11:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-08-403.md
+2024.03.19 15:11:09 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:11:10 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:11:10 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:11:11 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:11:11 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:11:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-16-597.md
+2024.03.19 15:11:18 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+Mar 19, 2024 3:11:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-19-039.md
+2024.03.19 15:11:27 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+Mar 19, 2024 3:11:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-29-144.md
+2024.03.19 15:11:30 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:11:31 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:11:32 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:11:36 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:11:36 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:11:37 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+Mar 19, 2024 3:11:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-40-179.md
+Mar 19, 2024 3:11:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-40-370.md
+Mar 19, 2024 3:11:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-42-882.md
+2024.03.19 15:11:43 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:11:44 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+Mar 19, 2024 3:11:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-49-689.md
+Mar 19, 2024 3:11:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-50-928.md
+Mar 19, 2024 3:11:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-11-55-453.md
+2024.03.19 15:12:00 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+2024.03.19 15:12:05 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+2024.03.19 15:12:07 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+Mar 19, 2024 3:12:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-09-689.md
+Mar 19, 2024 3:12:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-09-942.md
+Mar 19, 2024 3:12:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-13-359.md
+2024.03.19 15:12:14 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+Mar 19, 2024 3:12:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-23-234.md
+2024.03.19 15:12:25 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+2024.03.19 15:12:26 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+Mar 19, 2024 3:12:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-35-205.md
+Mar 19, 2024 3:12:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-36-205.md
+Mar 19, 2024 3:12:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-36-795.md
+Mar 19, 2024 3:12:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-37-134.md
+2024.03.19 15:12:39 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:12:40 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:12:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-39-812.md
+2024.03.19 15:12:44 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:12:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-44-044.md
+2024.03.19 15:12:44 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:12:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-48-191.md
+2024.03.19 15:12:49 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:12:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-50-539.md
+Mar 19, 2024 3:12:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-51-355.md
+Mar 19, 2024 3:12:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-52-169.md
+Mar 19, 2024 3:12:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-52-864.md
+Mar 19, 2024 3:12:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-53-973.md
+Mar 19, 2024 3:12:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-54-315.md
+Mar 19, 2024 3:12:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-12-55-051.md
+2024.03.19 15:13:08 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:13:09 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:13:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-13-09-613.md
+Mar 19, 2024 3:13:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-13-10-091.md
+Mar 19, 2024 3:13:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-13-11-443.md
+Mar 19, 2024 3:13:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-13-13-897.md
+Exception in thread "pool-1-thread-43" Exception in thread "pool-1-thread-69" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at scala.concurrent.impl.Promise$DefaultPromise.liftedTree1$1(Promise.scala:149)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$zipWith$2(Promise.scala:149)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$zipWith$2$adapted(Promise.scala:145)
+	at scala.concurrent.impl.Promise$DefaultPromise$$Lambda$1182/0x0000022e5d4cf988.apply(Unknown Source)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 454
+Exception in thread "pool-1-thread-34" java.lang.OutOfMemoryError: Java heap space
+An exception has occurred in the compiler (17.0.8.1). Please file a bug against the Java compiler via the Java bug reporting page (https://bugreport.java.com) after checking the Bug Database (https://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOfRange(Arrays.java:3822)
+	at java.base/java.lang.String.<init>(String.java:529)
+	at java.base/java.util.jar.Manifest.parseName(Manifest.java:364)
+	at java.base/java.util.jar.Manifest.read(Manifest.java:318)
+	at java.base/java.util.jar.Manifest.<init>(Manifest.java:100)
+	at java.base/java.util.jar.JarFile.getManifestFromReference(JarFile.java:429)
+	at java.base/java.util.jar.JarFile.getManifest(JarFile.java:406)
+	at jdk.compiler/com.sun.tools.javac.file.FSInfo.getJarClassPath(FSInfo.java:99)
+	at jdk.compiler/com.sun.tools.javac.file.CacheFSInfo.getJarClassPath(CacheFSInfo.java:97)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addJarClassPath(Locations.java:427)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addFile(Locations.java:417)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addFiles(Locations.java:349)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addFiles(Locations.java:337)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addFiles(Locations.java:343)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$ClassPathLocationHandler.computePath(Locations.java:783)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SimpleLocationHandler.setPaths(Locations.java:725)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$ClassPathLocationHandler.lazy(Locations.java:795)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$ClassPathLocationHandler.getPaths(Locations.java:759)
+	at jdk.compiler/com.sun.tools.javac.file.Locations.getLocation(Locations.java:2135)
+	at jdk.compiler/com.sun.tools.javac.file.JavacFileManager.getLocation(JavacFileManager.java:1011)
+	at jdk.compiler/com.sun.tools.javac.file.JavacFileManager.getClassLoader(JavacFileManager.java:749)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.initProcessorLoader(JavacProcessingEnvironment.java:284)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.<init>(JavacProcessingEnvironment.java:245)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.instance(JavacProcessingEnvironment.java:200)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:217)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.parseInternal(JavacTaskImpl.java:257)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl$$Lambda$1895/0x0000022e5d6cfd70.call(Unknown Source)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.parse(JavacTaskImpl.java:248)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.getTrees(JavaFoldingRangeExtractor.scala:126)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.extract(JavaFoldingRangeExtractor.scala:169)
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalStateException: java.lang.OutOfMemoryError: Java heap space
+java.util.concurrent.CompletionException: java.lang.IllegalStateException: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: java.lang.OutOfMemoryError: Java heap space
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.parse(JavacTaskImpl.java:252)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.getTrees(JavaFoldingRangeExtractor.scala:126)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.extract(JavaFoldingRangeExtractor.scala:169)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:48)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:45)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1684)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOfRange(Arrays.java:3822)
+	at java.base/java.lang.String.<init>(String.java:529)
+	at java.base/java.util.jar.Manifest.parseName(Manifest.java:364)
+	at java.base/java.util.jar.Manifest.read(Manifest.java:318)
+	at java.base/java.util.jar.Manifest.<init>(Manifest.java:100)
+	at java.base/java.util.jar.JarFile.getManifestFromReference(JarFile.java:429)
+	at java.base/java.util.jar.JarFile.getManifest(JarFile.java:406)
+	at jdk.compiler/com.sun.tools.javac.file.FSInfo.getJarClassPath(FSInfo.java:99)
+	at jdk.compiler/com.sun.tools.javac.file.CacheFSInfo.getJarClassPath(CacheFSInfo.java:97)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addJarClassPath(Locations.java:427)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addFile(Locations.java:417)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addFiles(Locations.java:349)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addFiles(Locations.java:337)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SearchPath.addFiles(Locations.java:343)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$ClassPathLocationHandler.computePath(Locations.java:783)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$SimpleLocationHandler.setPaths(Locations.java:725)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$ClassPathLocationHandler.lazy(Locations.java:795)
+	at jdk.compiler/com.sun.tools.javac.file.Locations$ClassPathLocationHandler.getPaths(Locations.java:759)
+	at jdk.compiler/com.sun.tools.javac.file.Locations.getLocation(Locations.java:2135)
+	at jdk.compiler/com.sun.tools.javac.file.JavacFileManager.getLocation(JavacFileManager.java:1011)
+	at jdk.compiler/com.sun.tools.javac.file.JavacFileManager.getClassLoader(JavacFileManager.java:749)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.initProcessorLoader(JavacProcessingEnvironment.java:284)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.<init>(JavacProcessingEnvironment.java:245)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.instance(JavacProcessingEnvironment.java:200)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:217)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.parseInternal(JavacTaskImpl.java:257)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl$$Lambda$1895/0x0000022e5d6cfd70.call(Unknown Source)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.parse(JavacTaskImpl.java:248)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.getTrees(JavaFoldingRangeExtractor.scala:126)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor$.extract(JavaFoldingRangeExtractor.scala:169)
+
+2024.03.19 15:17:55 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+2024.03.19 15:17:55 INFO  time: code lens generation in 4m21s
+Exception in thread "pool-1-thread-45" java.lang.OutOfMemoryError: Java heap space
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 458
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 460
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 453
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 450
+Exception in thread "pool-1-thread-60" java.lang.OutOfMemoryError: Java heap space
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 462
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 467
+Mar 19, 2024 3:17:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-17-55-188.md
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 470
+Mar 19, 2024 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 472
+2024.03.19 15:17:56 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 482
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 476
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 474
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 479
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 486
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 469
+Mar 19, 2024 3:17:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-17-55-778.md
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 487
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 484
+Mar 19, 2024 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 497
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 498
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 496
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 499
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 503
+2024.03.19 15:17:57 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 508
+2024.03.19 15:17:57 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 514
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 515
+Mar 19, 2024 3:17:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-17-57-222.md
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 507
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 506
+Mar 19, 2024 3:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 512
+Mar 19, 2024 3:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 527
+Mar 19, 2024 3:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 524
+Mar 19, 2024 3:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 534
+Mar 19, 2024 3:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 530
+Mar 19, 2024 3:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 533
+Mar 19, 2024 3:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 536
+Mar 19, 2024 3:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 539
+2024.03.19 15:17:58 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+2024.03.19 15:17:58 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 543
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 542
+Mar 19, 2024 3:17:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-17-58-092.md
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 550
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 495
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 558
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 559
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 548
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 551
+Mar 19, 2024 3:17:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 565
+Mar 19, 2024 3:17:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-17-59-932.md
+2024.03.19 15:18:00 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Main.java. Output:
+
+Mar 19, 2024 3:18:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 568
+Mar 19, 2024 3:18:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 569
+Mar 19, 2024 3:18:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 571
+Mar 19, 2024 3:18:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 575
+Mar 19, 2024 3:18:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 577
+Mar 19, 2024 3:18:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 582
+Mar 19, 2024 3:18:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 588
+2024.03.19 15:18:01 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/ProductCatalog.java. Output:
+
+Mar 19, 2024 3:18:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-18-01-218.md
+Mar 19, 2024 3:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 592
+Mar 19, 2024 3:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 593
+Mar 19, 2024 3:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 594
+Mar 19, 2024 3:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 595
+Mar 19, 2024 3:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 605
+Mar 19, 2024 3:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 607
+Mar 19, 2024 3:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 609
+2024.03.19 15:18:02 WARN  Running javac-semanticdb failed for file:///C:/Users/P/Desktop/DePaul%20Courses/SE%20450%20Object%20Oriented%20Software%20Development/SE%20450%20Assignments/FinalProject/src/finalProject/Product.java. Output:
+
+2024.03.19 15:18:02 WARN  no build target for: C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\src\finalProject\Product.java
+2024.03.19 15:18:02 WARN  no build target for: C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\src\finalProject\ProductCatalog.java
+Mar 19, 2024 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 612
+Mar 19, 2024 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 613
+Mar 19, 2024 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 614
+Mar 19, 2024 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 616
+Mar 19, 2024 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 617
+Mar 19, 2024 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 620
+Mar 19, 2024 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 621
+Mar 19, 2024 3:18:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-18-03-721.md
+Mar 19, 2024 3:18:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 623
+Mar 19, 2024 3:18:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 624
+Mar 19, 2024 3:18:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 625
+Mar 19, 2024 3:18:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 629
+Mar 19, 2024 3:35:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\P\Desktop\DePaul Courses\SE 450 Object Oriented Software Development\SE 450 Assignments\FinalProject\.metals\.reports\metals-full\2024-03-19\r_compiler-error_15-35-28-674.md
